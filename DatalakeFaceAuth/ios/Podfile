@@ -1,0 +1,9 @@
+platform :ios, '12.4'
+
+target 'DatalakeFaceAuth' do
+  # TensorFlow Lite pods for face recognition
+  pod 'TensorFlowLiteC', '~> 2.14.0'
+  pod 'TensorFlowLiteSelectTfOps', '~> 2.14.0'
+
+  # Other dependencies can be added here
+end
